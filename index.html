@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>angela he | dev + design</title>
+  <meta name="robots" content="index, follow" />
+  <meta name="description"
+    content="Angela He's portfolio page displaying software engineering, writing, and art projects." />
+  <meta name="keywords"
+    content="portfolio site, graphic design, professional site, software engineering, student portfolio, computer science" />
+  <link rel="icon" href="img/myIcon.ico" />
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- main css -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- modernizr -->
+  <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- nav -->
+    <nav class="navigation">
+      <div class="wow fadeInLeft">
+        <nav class="categories text-center">
+          <div class="portfolio_filter">
+            <a class="active hover-target" data-filter="*">All</a>
+            <a class="hover-target" data-filter=".VR">VR</a>
+            <a class="hover-target" data-filter=".site">Web</a>
+            <a class="hover-target" data-filter=".game">Games</a>
+            <a class="hover-target" data-filter=".writing">Writing</a>
+          </div>
+        </nav>
+      </div>
+      <div class="other_links">
+        <a class="hover-target" href="HeAngelaResume.pdf">Resume</a>
+        <a class="hover-target" href="https://softy-shop.com/">
+          Shop
+        </a>
+      </div>
+    </nav>
+    <nav class="socials">
+      <a class="hover-target" href="https://github.com/zephyo">
+        Github
+      </a>
+      <a class="hover-target" href="https://codepen.io/zephyo">
+        Codepen
+      </a>
+      <a class="hover-target" href="https://twitter.com/zephybite">
+        Twitter
+      </a>
+      <a class="hover-target" href="https://instagram.com/zephybite">
+        Instagram
+      </a>
+      <a class="hover-target" href="https://youtube.com/zephybite">
+        Youtube
+      </a>
+      <a class="hover-target" href="https://zephyo.itch.io/">
+        Itchio
+      </a>
+    </nav>
+
+    </nav>
+    <!-- end nav -->
+
+    <!-- box-intro -->
+    <section id="box-intro" class="card">
+
+      <div id="intro-cell">
+        <img src="img/2020UnityExperiments.gif" class="bg-image" />
+        <div class="cell-text">
+          <h1 class="box-headline letters rotate-2">
+            <span class="box-words-wrapper">
+              <b class="is-visible">I'm&nbsp;angela&nbsp;he,</b>
+              <b>story&nbsp;gobbler,</b>
+              <b>local&nbsp;art&nbsp;kid,</b>
+            </span>
+          </h1>
+          <h5>
+            making <a href="https://zephyo.itch.io"><mark>games</mark></a> and <a href="https://instagram.com/zephybite/"><mark>art</mark></a>.
+          </h5>
+          <p>
+            Support me on 
+            <a href="https://www.patreon.com/zephyo"><mark>Patreon</mark></a>!
+          </p>
+        </div>
+      </div>
+
+      <div class="scroll-circle">
+        <div class="scroll-container">
+          <p>Scroll</p>
+          <p>Down</p>
+        </div>
+      </div>
+
+
+      <div id="preloader"></div>
+      <div id="status">
+        <h2 class="box-headline letters rotate-2">
+          <span class="box-words-wrapper">
+            <b class="is-visible">loading&nbsp;gifs,</b>
+            <b>writing&nbsp;txt,</b>
+            <b>&nbsp;gathering&nbsp;berries,</b>
+          </span>
+        </h2>
+      </div>
+
+    </section>
+    <!-- end box-intro -->
+  </div>
+
+  <!-- portfolio div -->
+  <div id="projects" name="projects">
+    <div class="portfolio">
+
+
+      <div class="no-padding portfolio_container">
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site">
+          <a href="http://galaxy-sim.github.io/" target="_blank" class="portfolio_item">
+            <img src="img/galaxysim.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Galaxy Simulation</span>
+                  <em>Rust / Threejs</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site game">
+          <a href="https://github.com/zephyo/2D-Unity-Experiments" class="portfolio_item">
+            <img src="img/2020UnityExperiments.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>2D Unity 2020 Experiments</span>
+                  <em>Unity / Procreate</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site game">
+          <a href="https://github.com/zephyo/Yarn-Pile" class="portfolio_item">
+            <img src="img/YarnPileDemo.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Yarn Pile: Game Template</span>
+                  <em>Yarn Spinner / Unity</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site">
+          <a href="http://chat.angelahe.dev/" class="portfolio_item">
+            <img src="img/chatbot.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>chatbots 💬</span>
+                  <em>React / Flask / Python</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site">
+          <a href="http://palette.angelahe.dev/" class="portfolio_item">
+            <img src="img/palette.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>palette generator ✨</span>
+                  <em>React / Flask / Python</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <div class="col-md-6 col-sm-12 VR">
+          <a href="MS.html" class="portfolio_item">
+            <img src="img/tut.jpg" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>FTUE Tutorial and Materials in Maquette</span>
+                  <em>Microsoft VR Internship</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game 2D">
+          <a href="ANL.html" class="portfolio_item">
+            <img src="img/anewlife.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>a new life.</span>
+                  <em>Unity Visual Novel Game</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 site">
+          <a href="https://kickstarter.com/projects/zephybite/softy-edgy-yet-soft-apparel/" class="portfolio_item">
+            <img src="img/kick.jpg" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>softy</span>
+                  <em>Ecommerce Brand</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 writing">
+          <a href="https://medium.com/free-code-camp/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb"
+            class="portfolio_item">
+            <img src="img/medium.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>From Zero to Game Designer: how to start
+                    building video games even if you don’t have any
+                    experience</span>
+                  <em>20 Minute Medium Article</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game 2D">
+          <a href="MM.html" class="portfolio_item">
+            <img src="img/missedmessages.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>missed messages</span>
+                  <em>Unity Game (Desktop/Web)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 app site writing">
+          <a href="https://medium.com/free-code-camp/a-coding-project-a-day-for-20-days-5cd4c9383f84"
+            class="portfolio_item">
+            <img src="img/20.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>20 Days of Coding Projects</span>
+                  <em>Personal Challenge</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game 2D">
+          <a href="YLM.html" class="portfolio_item">
+            <img src="img/youleftme.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>YOU LEFT ME.</span>
+                  <em>Unity Game (Web/Desktop)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game 2D anim app">
+          <a href="LPM.html" class="portfolio_item">
+            <img src="img/lpm.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Live Portrait Maker</span>
+                  <em>Unity Character Creation App</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game app">
+          <a href="TTG.html" class="portfolio_item">
+            <img src="img/theres.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>there's this girl</span>
+                  <em>Unity Game (Web/Desktop/iOS/Android)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game anim 2D">
+          <a href="https://zephyo.itch.io/i-woke-up" class="portfolio_item">
+            <img src="img/iwokeup.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>I woke up next to you again.</span>
+                  <em>Unity Visual Novel (Web/Desktop)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 2D">
+          <a href="http://store.steampowered.com/app/541560/Suppressed/" class="portfolio_item">
+            <img src="img/sup.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Suppressed</span>
+                  <em>Unity Platformer (Desktop)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 2D game">
+          <a href="https://zephyo.itch.io/hi-no-homo" class="portfolio_item">
+            <img src="img/hi.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>hi no homo</span>
+                  <em>Unity Game (Web/Desktop)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game VR">
+          <a href="https://www.youtube.com/watch?v=A59IFDQu2Aw" class="portfolio_item">
+            <img src="img/cp.jpg" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Couch Potato</span>
+                  <em>VR App (Riot Games Hackathon 1st Place)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 2D app site">
+          <a href="mymood/index.html" class="portfolio_item">
+            <img src="img/mymood.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>mymood.</span>
+                  <em>Social/Photo Progressive Web App</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game app 2D">
+          <a href="WC.html" class="portfolio_item">
+            <img src="img/wholesome.gif" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Wholesome Cats</span>
+                  <em>Unity Game (Mobile/Facebook Messenger)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- 
+                <iframe style="transform: scale(0.5)" width="438" height="930" src="https://invis.io/2KPCXPT3XZ4"
+                frameborder="0" allowfullscreen></iframe> -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game anim 2D">
+          <a href="https://ldjam.com/events/ludum-dare/39/he-beat-her" class="portfolio_item">
+            <img src="img/hebeather.jpg" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>HE BEAT HER.</span>
+                  <em>Unity Visual Novel (Web/Desktop)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game 2D app">
+          <a href="TPE.html" class="portfolio_item">
+            <img src="img/header.jpg" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>THE PSYCHOPATH EXPERIMENT</span>
+                  <em>Unity Game (Web/Desktop/iOS/Android)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end single work -->
+
+        <!-- single work -->
+        <div class="col-md-6 col-sm-12 game app">
+          <a href="GB.html" class="portfolio_item">
+            <img src="img/experiment.png" alt="image" class="img-responsive" />
+            <div class="portfolio_item_hover">
+              <div class="portfolio-border clearfix">
+                <div class="item_info">
+                  <span>Good Bot</span>
+                  <em>Unity Game (iOS/Android)</em>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- end single work -->
+
+
+
+      </div>
+      <!-- end portfolio_container -->
+    </div>
+    <!-- portfolio -->
+  </div>
+  <!-- end portfolio div -->
+
+  <div id="cursor"></div>
+
+  <!-- back to top -->
+  <a href="#0" class="cd-top scroll-circle up">
+    <div class="scroll-container">
+      <p>Scroll</p>
+      <p>Up</p>
+    </div>
+  </a>
+  <!-- end back to top -->
+
+  <!-- jQuery -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <!--  plugins -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/animated-headline.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  <!--  custom script -->
+  <script src="js/custom.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/parallax.js"></script>
+</body>
+
+</html>

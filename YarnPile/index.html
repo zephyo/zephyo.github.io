@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Type"
+      content="text/html; charset=utf-8"
+    />
+    <title>Yarn Pile</title>
+  </head>
+  <body style="text-align: center">
+    <canvas
+      id="unity-canvas"
+      style="width: 960px; height: 600px; background: #bfbfbf"
+    ></canvas>
+    <script src="Build/YarnPile.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/YarnPile.data",
+        frameworkUrl: "Build/YarnPile.framework.js",
+        codeUrl: "Build/YarnPile.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Angela He",
+        productName: "Yarn Template",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>

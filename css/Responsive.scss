@@ -1,0 +1,120 @@
+/* Responsive media queries
+==================================================*/
+
+@media (max-width: 991px) {
+  .portfolio .categories-grid span {
+    margin-bottom: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .portfolio .categories-grid .categories ul li {
+    text-align: center !important;
+  }
+  .portfolio .categories-grid .categories ul li a {
+    margin-left: 0 !important;
+  }
+  .col-md-6 h3 {
+    margin-top: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  // .box-headline {
+  //   font-size: 100px;
+  // }
+  .bg-image {
+    width: 90vw;
+    transform: translateY(15%);
+  }
+  #box-intro h1 {
+    font-size: 32px !important;
+  }
+  #box-intro h5 {
+    font-size: 14px !important;
+  }
+  #box-intro p {
+    font-size: 12px !important;
+  }
+  .box-primary-nav a {
+    padding: 5px 1em !important;
+    font-size: 14px !important;
+  }
+  .box-primary-nav {
+    padding: 80px 0 0 !important;
+  }
+  .box-primary-nav .box-social a {
+    font-size: 23px !important;
+  }
+  .top-bar h1 {
+    font-size: 40px !important;
+    line-height: 30px !important;
+  }
+  .portfolio .categories-grid .categories ul li {
+    float: none !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .main-container {
+    padding: 50px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .top-bar h1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .bg-image {
+    transform: translateX(-5%) !important;
+    min-width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  #intro-cell {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .navigation a,
+  .socials a {
+    font-size: $smst-size !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .scroll-circle {
+    display: none !important;
+  }
+  .navigation {
+    height: $margin * 0.9 !important;
+    .portfolio_filter {
+      margin-left: $margin / 2 !important;
+    }
+    .other_links {
+      display: none !important;
+    }
+  }
+  .socials {
+    bottom: $margin / 2 !important;
+    right: $margin / 2 !important;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  .socials {
+    grid-template-columns: repeat(5, min-content);
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  #intro-cell .cell-text {
+    transform: translateX(10%) translateY(-15%) perspective(100px)
+      translateZ(10px) rotateY(1deg) !important;
+  }
+}
