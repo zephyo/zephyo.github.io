@@ -27,7 +27,7 @@ var fadeOutLoadingScreen = function () {
 		.delay(560)
 		.fadeOut("slow", function () {
 			$("body").css({
-				overflow: "visible",
+				overflowY: "visible",
 			});
 		}); // will fade out the white DIV that covers the website.
 };

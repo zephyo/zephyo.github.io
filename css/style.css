@@ -176,7 +176,20 @@
 @media only screen and (max-width: 670px) {
   .bg-image {
     width: 90vw;
-    transform: translateY(15%);
+  }
+  .bg-image:nth-child(1) {
+    max-width: 200px !important;
+    transform: translateX(75%) translateY(-20%) !important;
+  }
+  .bg-image:nth-child(2) {
+    max-width: 500px !important;
+    transform: translateX(-35%) translateY(20%) !important;
+  }
+  .bg-image:nth-child(3) {
+    max-width: 280px !important;
+  }
+  .bg-image:nth-child(4) {
+    max-width: 300px !important;
   }
   #box-intro h1 {
     font-size: 32px !important;
@@ -218,7 +231,7 @@
 }
 @media only screen and (min-width: 1260px) {
   .bg-image {
-    transform: translateX(-5%) !important;
+    min-width: 10vw;
   }
 }
 @media only screen and (max-width: 860px) {
@@ -267,6 +280,7 @@ body {
   background: #000000;
   position: relative;
   font-size: 10px;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -782,7 +796,8 @@ h4 li a:hover i {
   color: #ce4444;
   font-size: 1.7em;
 }
-#box-intro:before {
+
+.noise {
   content: "";
   position: absolute;
   top: 0;
@@ -880,19 +895,19 @@ h4 li a:hover i {
 }
 #intro-cell .bg-image:nth-child(4) {
   max-width: 700px;
-  transform: translateX(15%) translateY(90%) !important;
+  transform: translateX(15%) translateY(90%);
 }
 #intro-cell .bg-image:nth-child(1) {
   max-width: 650px;
-  transform: translateX(90%) translateY(10%) !important;
+  transform: translateX(90%) translateY(10%);
 }
 #intro-cell .bg-image:nth-child(3) {
   max-width: 580px;
-  transform: translateX(-25%) translateY(-95%) !important;
+  transform: translateX(-25%) translateY(-95%);
 }
 #intro-cell .bg-image:nth-child(2) {
   max-width: 700px;
-  transform: translateX(-95%) translateY(-40%) !important;
+  transform: translateX(-95%) translateY(-40%);
 }
 #intro-cell .cell-text {
   transform: translateX(10%) perspective(100px) translateZ(10px) rotateY(1deg);

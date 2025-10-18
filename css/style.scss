@@ -64,6 +64,7 @@ body {
   background: $black;
   position: relative;
   font-size: 10px;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -593,19 +594,19 @@ h4 li a:hover i {
     color: $color3;
     font-size: 1.7em;
   }
+}
 
-  &:before {
-    content: "";
-    @include absolute;
-    top: -500px;
-    right: -500px;
-    bottom: -500px;
-    left: -500px;
-    background: transparent url("../img/noise.png") 0 0;
-    opacity: 0.08;
-    background-size: 320px 320px;
-    animation: noise 12s steps(8, end) infinite both;
-  }
+.noise {
+  content: "";
+  @include absolute;
+  top: -500px;
+  right: -500px;
+  bottom: -500px;
+  left: -500px;
+  background: transparent url("../img/noise.png") 0 0;
+  opacity: 0.08;
+  background-size: 320px 320px;
+  animation: noise 12s steps(8, end) infinite both;
 }
 
 @keyframes noise {
@@ -711,21 +712,21 @@ $bg_out: 30px;
       // max-width: 800px;
       // transform: translateX(-95%) translateY(-40%) !important;
       max-width: 700px;
-      transform: translateX(15%) translateY(90%) !important;
+      transform: translateX(15%) translateY(90%) ;
     }
     &:nth-child(1) {
       max-width: 650px;
-      transform: translateX(90%) translateY(10%) !important;
+      transform: translateX(90%) translateY(10%) ;
     }
     &:nth-child(3) {
       max-width: 580px;
-      transform: translateX(-25%) translateY(-95%) !important;
+      transform: translateX(-25%) translateY(-95%) ;
     }
     &:nth-child(2) {
       // max-width: 800px;
       // transform: translateX(15%) translateY(80%) !important;
       max-width: 700px;
-      transform: translateX(-95%) translateY(-40%) !important;
+      transform: translateX(-95%) translateY(-40%) ;
     }
   }
 
