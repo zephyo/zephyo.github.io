@@ -812,6 +812,7 @@ h4 li a:hover i {
   opacity: 0.08;
   background-size: 320px 320px;
   animation: noise 12s steps(8, end) infinite both;
+  pointer-events: none;
 }
 
 @keyframes noise {
